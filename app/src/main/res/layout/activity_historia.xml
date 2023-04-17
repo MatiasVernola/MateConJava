@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/design_default_color_secondary"
+    tools:context=".Historia">
+
+    <LinearLayout
+        android:layout_width="343dp"
+        android:layout_height="528dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Historia y origen del mate"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:text="En la Argentina, llamamos mate a la infusión que se prepara con sus hojas, como también al recipiente donde se la toma, siendo el más utilizado el de calabaza. ¿Dónde surgió? Su origen se remonta a los pueblos guaraníes, que utilizaban las hojas del árbol como bebida, objeto de culto y moneda de cambio. Durante las largas travesías por la selva, los conquistadores españoles notaron que los guaraníes tenían mayor resistencia luego de tomar esta bebida sagrada. Más tarde los jesuitas introdujeron el cultivo en las reducciones y contribuyeron a su difusión y comercialización. Su consumo es altamente beneficioso, ya que contiene vitaminas del grupo B, posee un gran poder antioxidante, produce un efecto energizante y ayuda a reducir el colesterol malo (LDL) y los triglicéridos. Con el paso del tiempo el recipiente se fue achicando hasta llegar al que conocemos como mate. Mate nacionalizado La Ley 26.871 sancionada en 3 de julio de 2013 declaró al mate como infusión nacional y su día es el 30 de noviembre. Fuente: Argentina.gob.ar " />
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="143dp"
+            android:layout_height="wrap_content"
+            android:text="Volver" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
